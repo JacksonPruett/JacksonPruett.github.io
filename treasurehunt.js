@@ -18,7 +18,7 @@ const changeToEmoji = (number) => {
         document.getElementById(number).innerHTML = "🌈"
         alert("You are the winner!")
     } else if (randomBomb === number){
-        document.getElementById(number).innerHTML = "🖕"
+        document.getElementById(number).innerHTML = "💣"
         alert("You suck 🖕")
     } else if (randomTreasure !== number && randomBomb !== number){
         document.getElementById(number).innerHTML = "🌴"
